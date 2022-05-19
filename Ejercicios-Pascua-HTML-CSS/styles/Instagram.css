@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body{
+    font-family: Arimo, Helvetica, sans-serif;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #FAFAFA;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.container1{
+    width: 50%;
+    margin-right: 2%;
+}
+
+.container2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.login{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 7.5%;
+    border-radius: 1px;
+}
+
+.logo{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 7.5%;
+    width: 50%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    border-style: none;
+    border: 1px solid rgb(200, 200, 200);
+    width: 42vh;
+    height: 5vh;
+    background-color: #FAFAFA;
+    border-radius: 2px;
+}
+
+.item::placeholder{
+    color: rgb(140, 140, 140);
+}
+
+.boton{
+    margin-top: 2%;
+    background-color: #B2DFFC;
+    border-color: rgb(200, 200, 200);
+    border-style: none;
+    width: 43vh;
+    height: 5vh;
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 2.5%;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #0095F6;
+}
+
+.formulario p{
+    color: rgb(140, 140, 140);
+    margin-bottom: 7.5%;
+}
+
+.formulario a{
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+.facebook{
+    display: flex;
+    font-weight: bold;
+    color: #385185;
+    align-content: center;
+    align-items: center;
+}
+
+.contraseña{
+    color: #0a2a6e;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 2.5%;
+    border-radius: 1px;
+    padding: 2.5%;
+}
+
+.registrate{
+    text-decoration: none;
+    color: rgb(4, 153, 234);
+    font-weight: bold;
+}
+
+.descarga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.boton1{
+    width: 72%;
+    margin-left: 25%;
+}
+
+.boton2{
+    width: 72%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-size: smaller;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+    padding: 1%;
+}
+
+.linea1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linea2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linea3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    color: rgb(140, 140, 140);
+}
+
+.idioma{
+    border: none;
+    background-color: #FAFAFA;
+    width: 50%;
+    margin-left: 35%;
+}
+
+.idioma::placeholder{
+    color: rgb(140, 140, 140);
+    font-size: smaller;
+}
+
+@media screen and (max-width: 875px) {
+    .container1{
+        display: none;
+    }
+
+    .container2{
+        width: 100%;
+    }
+}
+
+/* Pagina Principal */
+.body2{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 8vh;
+}
+
+hr{
+    border: 1px solid rgb(200, 200, 200);
+    width: 100%;
+    margin-top: 0;
+}
+
+.izquierda{
+    width: 11%;
+    margin-left: 15%;
+}
+
+.centro{
+    margin-left: 0;
+    border-style: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 2px;
+    height: 3.5vh;
+    cursor: pointer;
+}
+
+.centro::placeholder{
+    color: rgb(200, 200, 200);
+    text-align: center;
+}
+
+.derecha{
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    margin: 7.5%;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.foto{
+    width: 40%;
+}

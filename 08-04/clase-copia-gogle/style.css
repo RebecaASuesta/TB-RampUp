@@ -1,0 +1,73 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+header a{
+    all: unset;
+}
+
+.loginButton{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: white;
+    padding: 9px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.google-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.input-container input{
+    all: unset;
+    width: 100%;
+}
+.search{
+    margin-top: 3px;
+    padding: 0.5em;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+}
+.microphone{
+    height: 24px;
+    width: 24px;
+    padding: 0.5em;
+
+}
+.input-container{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+}
+.buttons-container button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}

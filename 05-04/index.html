@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    /* Con lo que hay comentado se puede hacer todo de una, pero por si es hacer trampa, lo he hecho manualmente línea por línea */
+    /* table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    } */
+    /* th{
+        width: 25%;
+        text-align: left;
+    }    */
+    </style>
+</head>
+<body>
+    <table style="border:1px solid black; border-collapse: collapse;">
+        <tr>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;" colspan="3">Invoice #123456789</th>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;">14 January 2025</th>
+        </tr>
+        <tr>
+            <td style="border:1px solid black; border-collapse: collapse;" colspan="2"><b>Pay to:</b><br>
+            Acme Billing Co.<br>
+            123 Main St.<br>
+            Cityville, NA 12345</td>
+            <td style="border:1px solid black; border-collapse: collapse;"" colspan="2"><b>Customer:</b><br>
+            John Smith<br>
+            321 Willow Way<br>
+            Southeast Northwestshire, MA 54321</td>
+        </tr>
+        <tr>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;">Name / Description</th>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;">Qty.</th>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;">@</th>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;">Cost</th>
+        </tr>
+        <tr>
+            <td style="border:1px solid black; border-collapse: collapse;">Paperclips</td>
+            <td style="border:1px solid black; border-collapse: collapse;">1000</td>
+            <td style="border:1px solid black; border-collapse: collapse;">0.01</td>
+            <td style="border:1px solid black; border-collapse: collapse;">10.00</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black; border-collapse: collapse;">Staples (box)</td>
+            <td style="border:1px solid black; border-collapse: collapse;">100</td>
+            <td style="border:1px solid black; border-collapse: collapse;">1.00</td>
+            <td style="border:1px solid black; border-collapse: collapse;">100.00</td>
+        </tr>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;" colspan="3">Subtotal</th>
+            <td style="border:1px solid black; border-collapse: collapse;">110.00</td>
+        <tr>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;" colspan="2">Tax</th>
+            <td style="border:1px solid black; border-collapse: collapse;">8%</td>
+            <td style="border:1px solid black; border-collapse: collapse;">8.80</td>
+        </tr>
+        <tr>
+            <th style="border:1px solid black; border-collapse: collapse; width: 25%; text-align: left; background-color:lightgrey;" colspan="3">Grand Total</th>
+            <td style="border:1px solid black; border-collapse: collapse;">$ 118.80</td>
+        </tr>
+    </table>
+    <a href="http://127.0.0.1:5500/05-04/gatitos.html" title="Let's see some cats">Energy boost</a>
+</body>
+</html>

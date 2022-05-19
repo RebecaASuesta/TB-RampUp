@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+#body {
+    font-family: 'Goudy Bookletter 1911', Times, serif;
+}
+
+#address1 {
+    text-align: right;
+}
+
+h2 {
+    color: rgb(48, 92, 238);
+    word-spacing: 18px;
+}
+
+#part1 {
+    color:rgb(12, 216, 148);
+}
+
+#part2 {
+    color:rgb(12, 216, 148);
+}
+
+#part3 {
+    color: rgb(12, 216, 148);
+}
+
+.enlace {
+    text-decoration: none;
+    background-color:darksalmon;
+    color:black;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.2;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+/* No he usado etiquetas que creo que no tienen sentido para una carta como Hyphens, vertical-align, word-wrap,... */

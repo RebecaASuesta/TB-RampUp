@@ -1,0 +1,18 @@
+<!-- 1. Clases and Id: table#super-table>tr>td.table-data*3 -->
+<table id="super-table">
+    <tr>
+        <td class="table-data"></td>
+        <td class="table-data"></td>
+        <td class="table-data"></td>
+    </tr>
+</table>
+
+<!-- 2. Formularios: form:get[action=/action_page.php]>label[for=fname]{First name:}+input:text[id=fname][name=fname]+input:submit[value=Submit] -->
+<form action="/action_page.php" method="get"><label for="fname">First name:</label><input type="text" name="fname" id="fname"><input type="submit" value="Submit"></form>
+
+<!-- No sé por qué sale todo en una línea, abajo lo vuelvo a poner separándolo manualmente -->
+<form action="/action_page.php" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" name="fname" id="fname">
+    <input type="submit" value="Submit">
+</form>

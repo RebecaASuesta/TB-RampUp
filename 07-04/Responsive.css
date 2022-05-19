@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Goudy+Bookletter+1911&display=swap');
+
+body{
+    font-family: Dosis, Helvetica, sans-serif;
+    background-color: black;
+}
+
+span{
+    font-weight: bold;
+}
+
+.header{
+    background-color: #99d9ea;
+    margin: 2px;
+    padding: 5px;
+}
+
+.hero{
+    background-color: #7092be;
+    margin: 2px;
+    padding: 5px;
+}
+
+.content{
+    background-color: #a349a4;
+    margin: 2px;
+    padding: 5px;
+}
+
+.sidebar{
+    background-color: #c8bfe7;
+    margin: 2px;
+    padding: 5px;
+}
+
+.footer{
+    background-color: #ffaec9;
+    margin: 2px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+     /* Otra forma de hacerlo sin margin: auto (copiar luego de https://github.com/SofiaPinilla/flex-example)
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    }
+    div{
+    background-color: red;
+    width: 100%;
+    }
+    div span{
+        background-color: blue;
+        
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }   */
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    <form>
+        <label for="fecha">Fecha del hurto:</label><br>
+        <input type="date" id="fecha" name="fecha"><br>
+        <label for="hora">Hora del hurto:</label><br>
+        <input type="time" id="hora" name="hora"><br>
+        <label for="color">Color de la bicicleta robada:</label><br>
+        <input type="color" id="color" name="color"><br>
+        <label for="precio">Precio aproximado:</label><br>
+        <label for="">0€</label><input type="range" id="precio" name="precio" min="0" max="5000"><label for="">5000€</label><br>
+    </form>
+
+    <p>Tipo de bicicleta:</p>
+    <ul>
+        <li>Paseo</li>
+        <form>
+            <input type="radio" id="señorial" name="tipo" value="señorial">
+            <label for="señorial">Señorial</label><br>
+            <input type="radio" id="antiplebe" name="tipo" value="antiplebe">
+            <label for="antiplebe">Anti-plebeyos</label><br>
+            <input type="radio" id="hombro" name="tipo" value="hombro">
+            <label for="hombro">PorEncimaDelHombro</label><br>
+        </form>
+        <li>Montaña</li>
+        <form>
+            <input type="radio" id="gamusinos" name="tipo" value="gamusinos">
+            <label for="gamusinos">Gamusinos</label><br>
+            <input type="radio" id="flores" name="tipo" value="flores">
+            <label for="flores">Hueleflores premium</label><br>
+            <input type="radio" id="fango" name="tipo" value="fango">
+            <label for="fango">Fango lover</label><br>
+        </form>
+        <li>Carreras</li>
+        <form>
+            <input type="radio" id="metro" name="tipo" value="metro">
+            <label for="metro">Metroymedio</label><br>
+            <input type="radio" id="tarde" name="tipo" value="tarde">
+            <label for="tarde">3 de la tarde. Fluorescente edition</label><br>
+            <input type="radio" id="grupo" name="tipo" value="grupo">
+            <label for="grupo">Grupitors</label><br>
+        </form>
+    </ul>
+
+    <p>Accesorios:</p>
+    <form>
+        <input type="checkbox" name="ruedines" id="1">
+        <label for="ruedines">Ruedines</label><br>
+        <input type="checkbox" name="pegatinas" id="2">
+        <label for="pegatinas">Pegatinas</label><br>
+        <input type="checkbox" name="cesta" id="3">
+        <label for="cesta">Cestita</label><br>
+        <input type="checkbox" name="bomba" id="4">
+        <label for="4">Bomba de aire</label><br>
+        <input type="checkbox" name="timbre" id="5">
+        <label for="timbre">Timbre</label><br>
+        <input type="checkbox" name="foco" id="6">
+        <label for="foco">Foco</label><br>
+    </form>
+
+    <p>Marca:</p>
+    <form>
+        <input list="marca">
+        <datalist id="marca">
+            <option value="specialized">
+            <option value="trek">
+            <option value="merida">
+            <option value="scott">
+            <option value="giant">
+        </datalist>
+    </form>
+<!-- Me faltan opciones en el datalist de las marcas pero es que es tarde y estoy muy cansada y me quiero ir a la cama. Bona nit. -->
+</body>
+</html>

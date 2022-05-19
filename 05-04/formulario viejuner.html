@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>El club viejuner</h1>
+    <h2>Tú</h2>
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellidos"><br>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" placeholder="Edad"><br>
+        <p>Sexo:</p>
+        <input type="checkbox" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="checkbox" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="checkbox" id="otro" name="sexo" value="otro">
+        <label for="otro">Otro</label>
+        <p>Me siento viejuner:</p>
+        <input type="radio" id="sí" name="sí" value="Sí">
+        <label for="sí">Sí</label>
+        <input type="radio" id="no" name="no" value="No">
+        <label for="no">No</label>
+        <p>Escribe algo sobre ti:</p>
+        <textarea name="message" rows="10" cols="30" placeholder="Descríbete"></textarea>
+    </form>
+
+    <h2>Tus circunstancias</h2>
+    <form>
+        <label for="email">Dirección de correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com"><br>
+        <label for="phone">Número de teléfono:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="123456789">
+    </form>
+</body>
+</html>
